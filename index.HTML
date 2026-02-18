@@ -61,8 +61,22 @@
 
       <!-- CONTACT -->
       <section id="contact" class="contact">
-        <h2 class="contact__title">Contact</h2>
+        <h2 class="contact__title">Nous contacter</h2>
 
+        <section id="formulaire" class="formulaire">
+        <form action="https://formspree.io/f/xlgwljgn" method="POST">
+          
+          <label for="name">nom :</label>
+          <input type="text" name="name" id="name" placeholder="Ton nom" required />
+       
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="ton@email.com" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="5" placeholder="Ton message..." required></textarea>
+           <button type="submit">Envoyer</button>
+           </form>
+          </section>
         <address class="contact__details">
           <p>📍 67 rue six seven, 75000 Paris</p>
           <p>📞 <a href="tel:0123456789">01 23 45 67 89</a></p>
