@@ -262,3 +262,10 @@ main {
   justify-content: center;
   gap: 40px;
 }
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+   align-items: stretch;
+  
+}
