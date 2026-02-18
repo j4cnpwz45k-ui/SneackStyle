@@ -252,7 +252,7 @@ main {
 /* FOOTER */
 .footer {
   padding: 2rem;
-  background-color:  white;
+  background-color:  grey;
   color: black;
   text-align: center;
 }
@@ -263,9 +263,35 @@ main {
   gap: 40px;
 }
 
-.formulaire {
+.un {
   display: flex;
-  flex-direction: column;
-   align-items: stretch;
-  
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.deux {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trois {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quatre {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.quiapasdonnédenomacebouton {
+  background: transparent;
+  border: 2px solid white; /* ou la couleur de ton choix */
+  color: white;
+  padding: 15px 40px; /* augmente le padding pour le rendre plus grand */
+  font-size: 1.2rem;
+  cursor: pointer;
 }
