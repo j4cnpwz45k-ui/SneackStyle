@@ -115,7 +115,7 @@ main {
   .grid {
     padding: 5px;
     .photos {
-      width: 100%;
+      width: 150px;
       height: auto;
     }
   }
