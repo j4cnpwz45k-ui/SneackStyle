@@ -114,6 +114,10 @@ main {
  @media (max-width: 480px) {
   .grid {
     padding: 5px;
+    .photos {
+      width: 100%;
+      height: auto;
+    }
   }
 
   .title {
