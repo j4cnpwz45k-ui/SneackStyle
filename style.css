@@ -214,7 +214,7 @@ main {
 .hero {
   background-color: lightblue;
   background-position: 0% 60%;
-  width: 110%;
+  width: 100%;
   color: black;
   font-weight: 1000;
 }
