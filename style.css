@@ -257,6 +257,13 @@ main {
   align-items: center;
 }
 
+
+.map {
+  display : flex;
+  justify-content : center;
+  margin-bottom: 40px;
+}
+
 /* FOOTER */
 .footer {
   padding: 2rem;
